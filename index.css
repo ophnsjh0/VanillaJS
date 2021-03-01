@@ -1,7 +1,25 @@
 body {
-  background-color: orange;
+  background-color: white;
 }
 
 h1 {
-  color: white;
+  color: rgba(235, 86, 32, 0.856);
+  transition: color 0.5s ease-in-out;
+}
+/* 
+.btn {
+  cursor: pointer;
+}
+
+.clicked {
+  color: rgb(99, 35, 12);
+} */
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
 }
