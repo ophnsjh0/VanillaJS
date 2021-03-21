@@ -7,7 +7,7 @@ function getWeather(lat, lng){
     ).then(function(response){
         return response.json();
     }).then(function(json){
-        console.log(json);
+        console.log(json); 
     });
 }
 
